@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p, a {
+  font-size: 1rem;
+}
+
+.display, .p1-box, .p2-item, .p3-item-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2em;
+}
+
+.img-nav {
+  width: 40%;
+}
+
+.p1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(/image/img-1.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7)), url(/image/img-1.jpeg);
+  min-height: 100vh;
+}
+
+.p1-box {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #fff;
+  width: 80%;
+  padding: 2em;
+}
+
+.p1 h1 {
+  font-size: 2rem;
+}
+
+.p1 p {
+  margin: 1em 0 2em;
+}
+
+.btn-home, .btn-p2 {
+  padding: 1em 2em;
+  color: #fff;
+  background: #eb0808;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.p2 {
+  background: #F25C5C;
+}
+
+.p2-item {
+  padding: 2em;
+}
+
+.p2-item h1 {
+  width: 70%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.p3 {
+  padding: 2em 2em 0 2em;
+}
+
+.p3-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p3-item {
+  padding: 0 0em;
+}
+
+.p3-item-box {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.p3-item-1 {
+  width: 45%;
+  padding: 1em;
+  margin: .5em;
+  border-radius: .5em;
+}
+
+.p3-item-1:hover {
+  -webkit-box-shadow: 0 0 1em #E5E3DB;
+          box-shadow: 0 0 1em #E5E3DB;
+}
+
+.padding-left {
+  padding-right: 1em;
+}
+
+.p3 img {
+  width: 20%;
+}
+
+.p3 h3 {
+  font-size: 1.2rem;
+  margin: .5em 0;
+}
+
+.p3 p {
+  font-size: .8rem;
+}
+
+.p4 {
+  background: #F2F2F2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 2em;
+}
+
+.p4 h1 {
+  color: #eb0808;
+}
+
+.p4 p {
+  margin: .5em 0;
+  font-size: .8rem;
+}
+
+.p5 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 2em 2em;
+  text-align: center;
+  background: #F2F2F2;
+}
+
+.p5 img {
+  width: 15%;
+}
+
+.p5 h3 {
+  font-weight: 500;
+}
+
+.p6 {
+  background: #F2F2F2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2em 2em;
+}
+
+.p7 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2em 0 0;
+}
+
+.p7-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 2em 0 0;
+}
+
+.p7-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.00001em solid #A6A6A6;
+  padding: 1em;
+}
+
+.p7 img {
+  width: 12%;
+}
+
+.p7 h1 {
+  color: #eb0808;
+}
+
+.p7 h3 {
+  font-size: .9rem;
+  margin: .5em;
+}
+
+.p7 p {
+  font-size: .7rem;
+}
+
+.p8 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F25C5C;
+  color: #fff;
+  padding: 2em;
+}
+
+.p8 p {
+  margin: 1em 0 2em;
+}
+
+.p9 {
+  padding: 2em;
+}
+
+.p9-item {
+  width: 50%;
+}
+
+.p9-item-1 {
+  margin: 1em 0;
+}
+
+.form-back {
+  -webkit-box-shadow: 0 0 1em #E5E3DB;
+          box-shadow: 0 0 1em #E5E3DB;
+  padding: 2em;
+  border-radius: .5em;
+}
+
+.line {
+  height: .4em;
+  width: 15%;
+  background-color: #eb0808;
+}
+
+.p9 h2 {
+  margin: 1em 0;
+  color: #8C030E;
+}
+
+footer p {
+  font-size: .7rem;
+  padding: 1vh 0;
+  margin: 0 3vw;
+}
+
+.alert p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: .5rem;
+}
+
+footer p a {
+  color: #eb0808;
+  text-decoration: none;
+}
+
+.f-i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .p2-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .p3-box {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    text-align: center;
+  }
+  .padding-left {
+    padding-right: 0;
+  }
+  .p5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p5-item {
+    margin: 1em 0;
+  }
+  .p8, .p7 {
+    text-align: center;
+  }
+  .p7-box {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    text-align: left;
+  }
+  .p9 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .p9-item {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
