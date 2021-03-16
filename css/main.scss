@@ -28,7 +28,7 @@ nav{align-items: center;padding: 0 2em;}
 .p1-box{justify-content: flex-start;color: #fff;width: 80%;padding: 2em;}
 .p1 h1{font-size: 2rem;}
 .p1 p{margin: 1em 0 2em;}
-.btn-home, .btn-p2{padding: 1em 2em;color: #fff;background: $accent;text-decoration: none;font-weight: 600;font-size: .7em;}
+.btn-home, .btn-p2{padding: 1em 2em;color: #fff;background: $accent;text-decoration: none;font-weight: 600;font-size: .8em;}
 
 .p2{background: $back;}
 .p2-item{padding: 2em;}
@@ -80,8 +80,14 @@ footer p a{color: $accent; text-decoration: none;}
 .f-i{display: flex;justify-content: space-between;}
 
 @media screen and (max-width:900px){
+
     .p2-item{flex-direction: column;text-align: center;}
+
     .p3-box{grid-template-columns: 100%;text-align: center;}
+    .p3-item-box{flex-direction: column;align-items: center;}
+    .p3-item-1{width: 100%;}
+    .p3 img{width: 40%;}
+
     .padding-left{padding-right: 0;}
 
     .p5{flex-direction: column;text-align: center;align-items: center;}
