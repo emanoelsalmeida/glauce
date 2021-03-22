@@ -11,23 +11,15 @@
 
 body {
   font-size: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  overflow: hidden;
 }
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-p, a {
-  font-size: 1rem;
 }
 
 .display, .p1-box, .p2-item, .p3-item-box {
@@ -52,12 +44,6 @@ nav {
 
 .img-nav {
   width: 30%;
-}
-
-nav.black {
-  background: #fff;
-  -webkit-box-shadow: 0 0 30px #f1f1f1;
-          box-shadow: 0 0 30px #f1f1f1;
 }
 
 .p1 {
@@ -287,6 +273,11 @@ nav.black {
 
 .p4 ul {
   list-style-position: inside;
+}
+
+.p4_box h4 {
+  color: #595959;
+  font-weight: 500;
 }
 
 .p5 {
