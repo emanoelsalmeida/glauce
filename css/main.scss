@@ -12,9 +12,10 @@ $hei:#000;
 
 
 
-body{font-size: 100%;}
+body{font-size: 100%;overflow-x: hidden;}
+main{overflow-x: hidden;}
 
-html{scroll-behavior: smooth; overflow-x: hidden;}
+html{scroll-behavior: smooth; }
 
 
 .display, .p1-box, .p2-item, .p3-item-box{display: flex;justify-content: flex-start;align-items: center;}
