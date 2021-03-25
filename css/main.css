@@ -46,6 +46,18 @@ nav {
   width: 30%;
 }
 
+nav.black {
+  background: #fff;
+  -webkit-box-shadow: 0 0 30px #f1f1f1;
+          box-shadow: 0 0 30px #f1f1f1;
+  position: fixed;
+  z-index: 100;
+}
+
+nav.black img {
+  width: 15%;
+}
+
 .p1 {
   background: url(/image/back11.png);
   min-height: 100vh;
