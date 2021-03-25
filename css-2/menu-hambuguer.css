@@ -15,7 +15,8 @@ nav .closeMenu{display: none;font-size: 1.5em;cursor: pointer;}
 nav.black{background:#fff;box-shadow: 0 0 30px #f1f1f1;position: fixed;z-index: 100;}
 nav.black img{width: 15%;}
 
-@media (max-width:900px){
+@media (max-width:900px)
+{
     nav .mainMenu{min-height: 50vh;position: fixed;top: 0;left: 0;right: 0;z-index: 10;flex-direction: column;
     justify-content: center;align-items: center;background: #F2B279;transition: top 1s ease;display: none;}
  
@@ -24,5 +25,5 @@ nav.black img{width: 15%;}
     nav .mainMenu li a{color: #fff;}
     nav .mainMenu li a:hover{background: none;color: #f9d068;font-size: 1em;}
 
-    nav.block{position: sticky;}
+
 }
