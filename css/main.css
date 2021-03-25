@@ -533,6 +533,9 @@ footer p a {
 }
 
 @media screen and (max-width: 900px) {
+  nav {
+    padding: 1em;
+  }
   .p1 {
     background: #fff;
   }
