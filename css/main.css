@@ -52,6 +52,9 @@ nav.black {
           box-shadow: 0 0 30px #f1f1f1;
   position: fixed;
   z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 nav.black img {
