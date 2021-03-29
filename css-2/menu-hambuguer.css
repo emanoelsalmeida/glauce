@@ -12,7 +12,7 @@ nav .openMenu{font-size: 1em;margin: 1em;display: none;cursor: pointer;}
 
 nav .closeMenu{display: none;font-size: 1.5em;cursor: pointer;}
 
-nav.black{background:#fff;box-shadow: 0 0 30px #f1f1f1;position: fixed;z-index: 100;}
+nav.black{background:#fff;box-shadow: 0 0 30px #f1f1f1;position: fixed;z-index: 100;width: 100%;}
 nav.black img{width: 15%;}
 
 @media (max-width:900px)
