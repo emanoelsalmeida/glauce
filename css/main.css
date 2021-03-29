@@ -516,12 +516,14 @@ footer p a {
     background-position: right top;
     background-size: auto 60%;
     background-repeat: no-repeat;
+    padding: 1em;
   }
   .p1 {
     text-align: left;
   }
   .p1-box {
     width: 100%;
+    padding: 20ch 0 0;
   }
   .p3-item-box, .p9 {
     -webkit-box-orient: vertical;
@@ -560,8 +562,8 @@ footer p a {
   .p4_item {
     width: 100%;
   }
-  .p4_item img {
-    width: 20%;
+  .p4-item img {
+    width: 100%;
   }
   .p4 h1, .p5 h1 {
     text-align: center;

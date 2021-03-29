@@ -112,9 +112,9 @@ footer p a{color: #000; text-decoration: none;}
 @media screen and (max-width:900px){
     nav{padding: 0;}
     .p1{background-position: right top;background-size:auto 60%;
-        background-repeat: no-repeat;}
+        background-repeat: no-repeat;padding: 1em;}
     .p1{text-align: left;}
-    .p1-box{width: 100%;}
+    .p1-box{width: 100%;padding: 20ch 0 0;}
 
     .p3-item-box, .p9{flex-direction: column;}
 
@@ -126,7 +126,7 @@ footer p a{color: #000; text-decoration: none;}
         align-items: center;}
     .p4-carousel{width: 100%;}
     .p4_item{width: 100%;}
-    .p4_item img{width: 20%;}
+    .p4-item img{width: 100%;}
     .p4 h1, .p5 h1{text-align: center;}
 
     .youtube, .youtube .p1-item{flex-direction: column;}
