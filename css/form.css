@@ -2,7 +2,6 @@ form{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-right: 4%;
     justify-content: center;
 }
 form .input-fields{
@@ -27,8 +26,7 @@ form .input-fields{
     position: relative;
 }
 
-.input-fields input::after
-{content: "";position: absolute;top: 10px;left: 220px;background: #000;height: 20ch;width: 3ch;}
+
 
 .msg textarea
 {

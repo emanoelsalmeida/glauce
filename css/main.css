@@ -453,7 +453,7 @@ nav.black img {
 
 .form-back {
   border-radius: .5em;
-  margin: 1em 2em 0 0em;
+  margin: 1em 0em 0 0em;
   width: 80%;
 }
 
@@ -513,17 +513,22 @@ footer p a {
     padding: 0;
   }
   .p1 {
-    background-position: right top;
-    background-size: auto 40%;
-    background-repeat: no-repeat;
     padding: 1em;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto 60%;
   }
   .p1 {
     text-align: left;
   }
   .p1-box {
     width: 100%;
-    padding: 20ch 0 0;
+    padding: 30ch 0 0;
+  }
+  .appereace {
+    display: block;
+    width: 50%;
+    height: auto;
   }
   .p3-item-box, .p9 {
     -webkit-box-orient: vertical;
@@ -538,6 +543,9 @@ footer p a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-position: left top;
+    background-size: auto 50%;
+    background-repeat: no-repeat;
   }
   .p4-projects {
     -webkit-box-orient: vertical;
@@ -546,15 +554,8 @@ footer p a {
             flex-direction: column;
     width: 100%;
   }
-  .p4_box {
-    width: 100%;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .p4-box {
+    padding: 40ch 0 0;
   }
   .p4-carousel {
     width: 100%;
@@ -565,8 +566,11 @@ footer p a {
   .p4-item img {
     width: 100%;
   }
+  .p4-item h4 {
+    width: 100%;
+  }
   .p4 h1, .p5 h1 {
-    text-align: center;
+    text-align: left;
   }
   .youtube, .youtube .p1-item {
     -webkit-box-orient: vertical;
@@ -585,6 +589,9 @@ footer p a {
   }
   .p9-item, .p9-box {
     width: 100%;
+  }
+  .p9-box {
+    padding: 1em;
   }
   .f-i {
     -webkit-box-orient: vertical;
