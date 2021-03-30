@@ -59,7 +59,7 @@ nav.black {
 }
 
 nav.black img {
-  width: 15%;
+  width: 20%;
 }
 
 .p1 {
@@ -509,6 +509,12 @@ footer p a {
 }
 
 @media screen and (max-width: 900px) {
+  .img-nav {
+    width: 40%;
+  }
+  nav.black img {
+    width: 25%;
+  }
   nav {
     padding: 0;
   }
